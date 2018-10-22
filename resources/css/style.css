@@ -92,3 +92,15 @@ div.item {
   display: block;
   padding: 10px;
 }
+
+.locations {
+  display: flex;
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+}
+
+.locblock {
+  background-color: black;
+  align-content: center;
+  width: 300px;
+}
