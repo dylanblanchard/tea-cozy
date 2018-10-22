@@ -29,6 +29,7 @@ div {
   padding-top: 70px;
   width: 100%;
   margin: auto;
+  
 }
 
 .navlogo {
@@ -45,27 +46,35 @@ nav span {
 
 .hero {
   display: flex;
-  flex-wrap: wrap;
   background-image: url(../images/img-mission-background.jpg);
   height: 700px;
   width: 1200px;
   padding-top: 60px;
-  background-color: black; 
+  background-color: black;
 }
 
 .text {
   width: 100%;
-  align-content: center;
-  padding-top: 70px;
   margin: auto;
+  background-color: black;
 }
 
 h2 {
-  background-color: black;
-  padding: 10px;
+  font-size: 30px;
 }
 
-h4 {
-  background-color: black;
-  padding: 10px;
+.teamontharea {
+  width: 1000px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item {
+  height: 200px;
+  width: 300px;
+  
+
 }
