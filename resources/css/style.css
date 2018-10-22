@@ -2,9 +2,12 @@
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  background-color: black;
   opacity: 0.9;
   text-align: center;
+}
+
+body {
+  background-color: black;
 }
 
 .header {
@@ -13,6 +16,9 @@
   border-bottom: 1px solid seashell;
   position: fixed;
   width: 100%;
+  flex-wrap: wrap;
+  z-index: 1;
+  background-color: black;
 }
 
 .navlogo {
@@ -24,4 +30,30 @@
 nav span {
   display: inline-block;
   padding: 20px 10px;
+}
+
+.hero {
+  display: flex;
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  padding-top: 60px;
+  background-color: black;
+}
+
+.text {
+  width: 100%;
+  align-content: center;
+  padding-top: 300px;
+  margin: auto;
+}
+
+h2 {
+  background-color: black;
+  padding: 10px;
+}
+
+h4 {
+  background-color: black;
+  padding: 10px;
 }
