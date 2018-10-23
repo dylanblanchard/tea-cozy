@@ -14,7 +14,7 @@ div {
   display: block;
 }
 
-.header {
+header {
   display: flex;
   height: 69px;
   border-bottom: 1px solid seashell;
@@ -24,7 +24,21 @@ div {
   z-index: 1;
   background-color: black;
   top: 0px;
+  align-items: center;
 }
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+  display: block;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 
 .main {
   padding-top: 70px;
@@ -32,11 +46,19 @@ div {
   margin: auto;
 }
 
+header nav {
+  padding-right: 10px;
+}
+
 .navlogo {
   padding-left: 10px;
   height: 50px;
   flex-grow: 1;
   text-align: left;
+}
+
+.navlogo img {
+  height: 50px;
 }
 
 nav span {
@@ -57,10 +79,6 @@ nav span {
   width: 100%;
   margin: auto;
   background-color: black;
-}
-
-h2 {
-  font-size: 30px;
 }
 
 .teamontharea {
