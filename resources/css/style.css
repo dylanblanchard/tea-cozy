@@ -14,7 +14,7 @@ div {
   display: block;
 }
 
-.header {
+header {
   display: flex;
   height: 69px;
   border-bottom: 1px solid seashell;
@@ -33,10 +33,21 @@ h2, h3, h4 {
   display: block;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
 .main {
   padding-top: 70px;
   width: 100%;
   margin: auto;
+}
+
+header nav {
+  padding-right: 10px;
 }
 
 .navlogo {
@@ -54,6 +65,8 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
 }
+
+.header nav
 
 .hero {
   display: flex;
