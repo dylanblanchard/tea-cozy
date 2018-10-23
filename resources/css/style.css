@@ -122,3 +122,11 @@ div.item {
   align-content: center;
   width: 300px;
 }
+
+.info {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+}
