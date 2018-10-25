@@ -2,7 +2,8 @@
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  /* opacity: 0.9; this looks really bad */
+  /* this looks really bad */
+  opacity: 0.9;
   text-align: center;
 }
 
@@ -125,7 +126,7 @@ div.item {
   display: block;
   margin: 0px;
   padding-top: 10px;
-  
+
 }
 
 #locations {
@@ -145,9 +146,10 @@ div.item {
 .store {
   opacity: 1;
   width: 300px;
+  flex-direction: row;
   margin: 5px 20px;
   padding: 10px;
-  padding-top: 30px;
+  display: inline-block;
   justify-content: center;
   background-color: black;
 }
