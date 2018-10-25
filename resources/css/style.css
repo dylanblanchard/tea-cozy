@@ -88,6 +88,7 @@ nav span {
   width: 1000px;
   height: 700px;
   margin: auto;
+  padding-bottom: 50px;
 }
 
 .flex-container {
@@ -110,22 +111,31 @@ div.item {
 
 .item p {
   display: block;
-  padding: 10px;
+  padding: 0px;
 }
 
-.locations {
-  display: flex;
+#locations {
   background-image: url(../images/img-locations-background.jpg);
   height: 500px;
+  padding-top: 70px;
 }
 
-.locblock {
-  background-color: black;
-  align-content: center;
-  width: 300px;
-  padding-top: 70px;
+#locations p {
+  display: block;
+}
+
+#locations h2 {
+  padding-bottom: 15px;
+}
+
+.store {
   opacity: 1;
-  
+  width: 300px;
+  margin: 5px 20px;
+  padding: 10px;
+  padding-top: 30px;
+  justify-content: center;
+  background-color: black;
 }
 
 .info {
