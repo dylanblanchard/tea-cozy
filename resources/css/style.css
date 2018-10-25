@@ -97,6 +97,12 @@ nav span {
   padding-bottom: 50px;
 }
 
+#infomonth {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
