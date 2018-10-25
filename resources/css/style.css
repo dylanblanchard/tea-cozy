@@ -27,7 +27,9 @@ header {
   align-items: center;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
   margin: 0;
   padding: 10px;
   display: block;
@@ -69,7 +71,7 @@ nav span {
 .hero {
   display: flex;
   background-image: url(../images/img-mission-background.jpg);
-  background-repeat: repeat;  
+  background-repeat: repeat;
   height: 700px;
   padding-top: 60px;
   background-color: black;
