@@ -80,6 +80,8 @@ nav span {
   height: 700px;
   padding-top: 60px;
   background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .text {
